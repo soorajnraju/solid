@@ -1,0 +1,22 @@
+{
+    "name": "soorajnraju/solid",
+    "description": "A solid framework",
+    "type": "library",
+    "require": {
+        "php": "7.4.*",
+        "symfony/http-kernel": "^5.3"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Sooraj N Raju",
+            "email": "soorajnraju@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Solid\\": "lib/",
+            "App\\": "src/"
+        }
+    }
+}
